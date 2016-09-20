@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.narayana.flyemirates.utils.FlyEmiratesConstants;
 
+
 public class HomePage {
 
 	WebDriver driver;
@@ -16,14 +17,32 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	
 
-	@FindBy(id = FlyEmiratesConstants.sLaunguage_id)
+	@FindBy(xpath=FlyEmiratesConstants.sLaunguage_xpath)
 	private WebElement launguageSelector;
-
-	public void verifyLanguageBasedonRegion() {
+	
+	@FindBy(xpath=FlyEmiratesConstants.sLanguageHeaderContent_xpath)
+	private WebElement HeaderContent;
+	
+	@FindBy(xpath=FlyEmiratesConstants.countrySelectBox_xpath)
+	private WebElement selectCountry;
+	
+	
+	
+	public void clickOnSelectLanguage() {
 
 		launguageSelector.click();
 
 	}
+	
+	public String headerContentText(){
+		 String content=HeaderContent.getText();
+		 return content;
+	}
+	
+	
+	
 
 }

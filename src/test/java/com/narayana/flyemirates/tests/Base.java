@@ -17,6 +17,7 @@ public class Base {
 	
 	@BeforeTest
 	public void init() {
+		log.info("Initializing Driver");
 		if (System.getProperty("browser").equalsIgnoreCase("chrome")) {
 			System.getProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver=new ChromeDriver();
@@ -31,11 +32,13 @@ public class Base {
 		
 		driver.get("http://www.emirates.com/in/English/");
 
+		log.info("Loaded URL");
 	}
 	
 	@AfterTest
 	public void tearDown(){
 		driver.quit();
+		log.info("Driver Quit");
 	}
 
 }

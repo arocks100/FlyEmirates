@@ -4,7 +4,8 @@ public interface FlyEmiratesConstants {
 	
 	//Landing Page
 	
-	String sLaunguage_id="//li[@id='language-selector']";
-	
+	String sLaunguage_xpath="//a[@class='menu-item menu-item-with-button']";
+	String sLanguageHeaderContent_xpath="//h2[@class='heading nocufon']";
+	String countrySelectBox_xpath="//select[@id='select-region-dropdown']";
 
 }
