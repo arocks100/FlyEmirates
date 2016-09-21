@@ -1,0 +1,56 @@
+
+2016-09-20 16:01:06,315 [main] INFO  Base - Initializing Driver
+2016-09-20 16:01:08,755 [main] INFO  Base - Loaded Chrome Driver
+2016-09-20 16:01:21,793 [main] INFO  Base - Loaded URL
+2016-09-20 16:01:21,899 [main] INFO  HomePageTestHomePageTest - Clicked on Select Launguage Tab
+2016-09-20 16:01:21,912 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-20 16:01:21,916 [main] INFO  HomePageTestHomePageTest - Wait for 10 seconds
+2016-09-20 16:01:43,099 [main] INFO  Base - Driver Quit
+2016-09-20 16:19:06,902 [main] INFO  Base - Initializing Driver
+2016-09-20 16:19:09,257 [main] INFO  Base - Loaded Chrome Driver
+2016-09-20 16:19:23,302 [main] INFO  Base - Loaded URL
+2016-09-20 16:19:23,416 [main] INFO  HomePageTestHomePageTest - Clicked on Select Launguage Tab
+2016-09-20 16:19:23,430 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-20 16:19:23,430 [main] INFO  HomePageTestHomePageTest - Wait for 10 seconds
+2016-09-20 16:19:24,376 [main] INFO  Base - Driver Quit
+2016-09-21 15:23:55,867 [main] INFO  Base - Initializing Driver
+2016-09-21 15:23:58,235 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 15:24:12,954 [main] INFO  Base - Loaded URL
+2016-09-21 15:24:30,038 [main] INFO  Base - Driver Quit
+2016-09-21 16:03:20,266 [main] INFO  Base - Initializing Driver
+2016-09-21 16:03:22,716 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 16:03:36,533 [main] INFO  Base - Loaded URL
+2016-09-21 16:03:53,378 [main] INFO  Base - Driver Quit
+2016-09-21 16:06:16,882 [main] INFO  Base - Initializing Driver
+2016-09-21 16:06:19,296 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 16:06:50,522 [main] INFO  Base - Loaded URL
+2016-09-21 16:06:52,092 [main] INFO  Base - Driver Quit
+2016-09-21 16:59:12,183 [main] INFO  Base - Initializing Driver
+2016-09-21 16:59:14,626 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 16:59:20,186 [main] INFO  Base - Loaded URL
+2016-09-21 16:59:21,417 [main] INFO  Base - Driver Quit
+2016-09-21 17:01:14,924 [main] INFO  Base - Initializing Driver
+2016-09-21 17:01:17,313 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 17:01:31,566 [main] INFO  Base - Loaded URL
+2016-09-21 17:01:31,575 [main] INFO  HomePageTest - Executing @@Test
+2016-09-21 17:01:49,563 [main] INFO  Base - Driver Quit
+2016-09-21 17:02:29,449 [main] INFO  Base - Initializing Driver
+2016-09-21 17:02:31,905 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 17:02:44,717 [main] INFO  Base - Loaded URL
+2016-09-21 17:02:44,724 [main] INFO  HomePageTest - Executing @@Test
+2016-09-21 17:02:45,933 [main] INFO  Base - Driver Quit
+2016-09-21 17:15:52,301 [main] INFO  Base - Initializing Driver
+2016-09-21 17:15:54,824 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 17:16:08,146 [main] INFO  Base - Loaded URL
+2016-09-21 17:16:08,153 [main] INFO  HomePageTest - Executing @@Test
+2016-09-21 17:16:26,041 [main] INFO  Base - Driver Quit
+2016-09-21 17:17:21,311 [main] INFO  Base - Initializing Driver
+2016-09-21 17:17:23,706 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 17:17:36,989 [main] INFO  Base - Loaded URL
+2016-09-21 17:17:36,995 [main] INFO  HomePageTest - Executing @@Test
+2016-09-21 17:17:52,322 [main] INFO  Base - Driver Quit
+2016-09-21 17:18:33,509 [main] INFO  Base - Initializing Driver
+2016-09-21 17:18:36,076 [main] INFO  Base - Loaded Chrome Driver
+2016-09-21 17:18:49,262 [main] INFO  Base - Loaded URL
+2016-09-21 17:18:49,269 [main] INFO  HomePageTest - Executing @@Test
+2016-09-21 17:19:05,029 [main] INFO  Base - Driver Quit

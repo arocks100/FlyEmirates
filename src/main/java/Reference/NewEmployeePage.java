@@ -9,7 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NewEmployeePage {
-    private Map<String, String> data;
+    @SuppressWarnings("unused")
+	private Map<String, String> data;
     private WebDriver driver;
     private int timeout = 15;
 
