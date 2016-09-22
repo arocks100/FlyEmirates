@@ -2,7 +2,10 @@ package com.narayana.flyemirates.utils;
 
 public interface FlyEmiratesConstants {
 	
-	//Landing Page
+	/**
+	 * Landing Page
+	 */
+	
 	
 	//Select launguage
 	String sLaunguage_xpath="//a[@class='menu-item menu-item-with-button']";
@@ -30,5 +33,38 @@ public interface FlyEmiratesConstants {
 	//Go
 	String xSGo="//a[@class='btn btn-default btn-custom btn-lang-selector']";
 	
+	/*
+	 * Menu Bar
+	 */
+	
+	//Book
+	String sMenuBar_Book_Xpath="//li[@id='book']";
+	
+	//Search for Flights
+	
+	String sSub_MenuBar_Book_Xpath="//li[@id='book']/following::a[@class='btn btn-primary']";
+	
+	
+	//Manage
+	String sMenuBar_Manage_Xpath="//li[@id='book']";
+	
+	//Experience
+	String sMenuBar_Experience_Xpath="//li[@id='inFlight']";
+	
+	//Destinations
+	String sMenuBar_Destinations_Xpath="//li[@id='destinations']";
+	
+	//Emirates Skywords and Business Rewards
+	
+	String sMenuBar_SkywordsBusinessRewards_Xpath="//li[@class='account membership-br-member-only hidden-xs hidden-sm clickable']";
+	
+	
+	
+	/**
+	 * Search for Flight Page
+	 */
 
+	String HeaderTextMakeBooking_Xpath="//a[@id='ctl00_c_skywardsLoginbtn']";
+	
+	String Search_Xpath=".//*[@id='ctl00_c_IBE_PB_FF']";
 }
