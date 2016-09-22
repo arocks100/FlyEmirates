@@ -16,7 +16,6 @@ public class NewHomePage {
 
 	public NewHomePage(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
 		log.info("Initialized the Elements of -->NewHomePage Class<--");
 	}
 
@@ -25,6 +24,8 @@ public class NewHomePage {
 
 	@FindBy(xpath = FlyEmiratesConstants.sMenuBar_Book_Xpath)
 	private WebElement searchForFlights;
+	
+	
 
 	/**
 	 * Clicks on Book Button on MenuBar
@@ -52,6 +53,13 @@ public class NewHomePage {
 		// Returns Search for Flights Page
 		log.info("Initialized  --->SearchForFlightsPage WEbElements<---");
 		return PageFactory.initElements(driver, SearchForFlightsPage.class);
+		
+	}
+	
+	
+	public void clickonBookaHotel(){
+		
+		
 		
 	}
 

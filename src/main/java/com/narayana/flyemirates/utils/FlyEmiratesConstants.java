@@ -67,4 +67,14 @@ public interface FlyEmiratesConstants {
 	String HeaderTextMakeBooking_Xpath="//a[@id='ctl00_c_skywardsLoginbtn']";
 	
 	String Search_Xpath=".//*[@id='ctl00_c_IBE_PB_FF']";
+	
+	
+	/**
+	 * 
+	 * Book Hotel
+	 * 
+	 */
+	
+	String BookHotelButton_Xpath="//span[@class='form-btn secondBtn homeWidget']";
+	
 }
