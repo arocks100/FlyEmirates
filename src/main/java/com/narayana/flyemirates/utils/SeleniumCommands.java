@@ -11,7 +11,7 @@ public class SeleniumCommands {
 
 	public static Logger log = Logger.getLogger("SeleniumCommands");
 
-	public static void webDriverWait(WebDriver driver, TimeUnit unit, long l) {
+	public static void webDriverWait(WebDriver driver,  long l,TimeUnit unit) {
 
 		driver.manage().timeouts().implicitlyWait(l, unit);
 		log.info("Webdriver Wait");

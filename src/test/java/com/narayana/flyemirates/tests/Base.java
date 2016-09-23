@@ -1,5 +1,7 @@
 package com.narayana.flyemirates.tests;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,11 +35,12 @@ public class Base {
 		driver.get("http://www.emirates.com/in/English/");
 
 		log.info("Loaded URL");
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
 	
 	@AfterTest
 	public void tearDown(){
-		driver.quit();
+		//driver.quit();
 		log.info("Driver Quit");
 	}
 
