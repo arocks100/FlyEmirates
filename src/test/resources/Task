@@ -1,6 +1,10 @@
-Xpath css and manual xpaths
-http://learn-automation.com/write-dynamic-css-selector-in-selenium/
 Calendar 
 fix header menu should work same for all pages.
 Add erroecollectors and listener to the project
+
+Xpath css and manual xpaths
+http://learn-automation.com/write-dynamic-css-selector-in-selenium/
 https://saucelabs.com/resources/articles/selenium-tips-css-selectors
+
+<-----Wed---->
+Write cases and implement error Colletors and collect errors

@@ -49,35 +49,49 @@ public interface FlyEmiratesConstants {
 	}
 
 	public interface SearchforFlightPage {
-		//Login Button
-		String LoginButtonx="//a[@id='ctl00_c_skywardsLoginbtn']";
-		
-		//Make Booking
-		
-		//Radio button-"rB"
-		String rBreturnid="ctl00_c_CtWNW_ltReturn";
-		String rBoneWayid="ctl00_c_CtWNW_ltOneway";
-		String rBadvSearchid="ctl00_c_CtWNW_ltMultiDes";
-		
-        //TextBox---"tBAjax"---------calander----**----Cal-
-		String tBAjDepAirportid="ctl00_c_CtWNW_ddlFrom-suggest";
-		String calDepDepartid="txtDepartDate";
-		String selectClassx="//*[@id='ctl00_c_CtWNW_flightClass_chosen']/a";
-		String tBArrAirportid="ctl00_c_CtWNW_ddlTo-suggest";
-		String calreturntid="txtarrivaldate";
-		String returnselectClassx="//*[@id='ctl00_c_CtWNW_flightClass1_chosen']/a";
-		
-		
-		//Passengers
-		String selectAdultsx="//*[@id='ctl00_c_CtNoOfTr_numberAdults_chosen']/a";
-		String selectChildx="//*[@id='ctl00_c_CtNoOfTr_numberChildren_chosen']/a";
-		String selectInfantsx="//*[@id='ctl00_c_CtNoOfTr_numberinfants_chosen']/a";
-		
-		//Promotional Offers
-		String promoCodex="//input[@id='ctl00_c_CtPrOffer_txtEnterCode']";
-		
-		//Search
-		String searchx="//a[@id='ctl00_c_IBE_PB_FF']";
+		// Login Button
+		String LoginButtonx = "//a[@id='ctl00_c_skywardsLoginbtn']";
+
+		// Make Booking
+
+		// Radio button-"rB"
+		String rBreturnid = "ctl00_c_CtWNW_ltReturn";
+		String rBoneWayid = "ctl00_c_CtWNW_ltOneway";
+		String rBadvSearchid = "ctl00_c_CtWNW_ltMultiDes";
+
+		// TextBox---"tBAjax"---------calander----**----Cal-
+		String tBAjDepAirportid = "ctl00_c_CtWNW_ddlFrom-suggest";
+		String calDepDepartid = "txtDepartDate";
+		String selectClassx = "//*[@id='ctl00_c_CtWNW_flightClass_chosen']/a";
+		String tBArrAirportid = "ctl00_c_CtWNW_ddlTo-suggest";
+		String calreturntid = "txtarrivaldate";
+		String returnselectClassx = "//*[@id='ctl00_c_CtWNW_flightClass1_chosen']/a";
+
+		// Passengers
+		String selectAdultsx = "//*[@id='ctl00_c_CtNoOfTr_numberAdults_chosen']/a";
+		String selectChildx = "//*[@id='ctl00_c_CtNoOfTr_numberChildren_chosen']/a";
+		String selectInfantsx = "//*[@id='ctl00_c_CtNoOfTr_numberinfants_chosen']/a";
+
+		// Promotional Offers
+		String promoCodex = "//input[@id='ctl00_c_CtPrOffer_txtEnterCode']";
+
+		// Search
+		String searchx = "//a[@id='ctl00_c_IBE_PB_FF']";
 	}
 
+	public interface Header {
+
+		String selectLan_Css="#language-selector";
+		String help_Css="#global-help";
+		String search_css="#global-search-field";
+	}
+
+	public interface Menu {
+		
+		String book_css="#book";
+		String manage_css="#trips";
+		String experience_css="#inFlight";
+		String destinations_css="#destinations";
+		String skywardsBussinessRewards_css=".name";
+	}
 }
