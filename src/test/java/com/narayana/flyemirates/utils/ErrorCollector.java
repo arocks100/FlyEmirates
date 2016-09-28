@@ -11,6 +11,13 @@ import org.testng.Reporter;
 
 public class ErrorCollector {
 	
+	static List<Throwable> verificationFailures;
+	
+	public static List<Throwable> getResults(){
+		
+		return verificationFailures;
+	}
+	
 	private static Map<ITestResult, List<Throwable>> verificationFailuresMap = new HashMap<ITestResult, List<Throwable>>();
 
     public static void assertTrue(boolean condition) {
@@ -106,7 +113,7 @@ public class ErrorCollector {
     }
     
 	public static List<Throwable> getVerificationFailures() {
-		List<Throwable> verificationFailures = verificationFailuresMap.get(Reporter.getCurrentTestResult());
+		verificationFailures = verificationFailuresMap.get(Reporter.getCurrentTestResult());
 		return verificationFailures == null ? new ArrayList<Throwable>() : verificationFailures;
 	}
 	

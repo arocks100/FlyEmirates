@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SearchForFlights">
-  <test name="GetTextFromSearchForFlightsPage">
-    <classes>
-      <class name="com.narayana.flyemirates.tests.TestSearchForFlights"/>
-    </classes>
-  </test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="com.narayana.flyemirates.utils.MethodListener" />
+		<listener class-name="com.narayana.flyemirates.utils.RerunFailedTests" />
+	</listeners>
+
+	<test name="GetTextFromSearchForFlightsPage">
+		<classes>
+			<class name="com.narayana.flyemirates.tests.TestSearchForFlights" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

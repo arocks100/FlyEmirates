@@ -1,5 +1,7 @@
 package com.narayana.flyemirates.tests;
 
+import java.util.Iterator;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -9,11 +11,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import com.narayana.flyemirates.utils.ErrorCollector;
+
 public class Base {
 
 	Logger log=Logger.getLogger("Base");
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	
 	
@@ -40,8 +44,13 @@ public class Base {
 	
 	@AfterTest
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 		log.info("Driver Quit");
+		List<Throwable> results=ErrorCollector.getResults();
+		Iterator<Throwable> it=results.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
 	}
 
 }

@@ -9,3 +9,40 @@
 2016-09-23 17:02:07,061 [main] INFO  NewHomePage - Initialized  --->SearchForFlightsPage WEbElements<---
 2016-09-23 17:02:07,064 [main] INFO  SearchForFlightsPage - Executed Constructor of <--SearchForFlightsPage-->
 2016-09-23 17:02:07,068 [main] INFO  Base - Driver Quit
+2016-09-28 11:53:55,288 [main] INFO  Base - Initializing Driver
+2016-09-28 11:53:57,631 [main] INFO  Base - Loaded Chrome Driver
+2016-09-28 11:54:13,141 [main] INFO  Base - Loaded URL
+2016-09-28 11:54:13,160 [main] INFO  NewHomePage - Initialized the Elements of -->NewHomePage Class<--
+2016-09-28 11:54:13,263 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 11:54:13,263 [main] INFO  NewHomePage - Moved to --->Book from Header Menu<---
+2016-09-28 11:54:13,272 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 11:54:13,390 [main] INFO  NewHomePage - Clicked on --->Search Flights<---
+2016-09-28 11:54:13,390 [main] INFO  NewHomePage - Initialized  --->SearchForFlightsPage WEbElements<---
+2016-09-28 11:54:13,393 [main] INFO  SearchForFlightsPage - Executed Constructor of <--SearchForFlightsPage-->
+2016-09-28 11:54:14,323 [main] INFO  Base - Driver Quit
+2016-09-28 15:59:41,103 [main] INFO  Base - Initializing Driver
+2016-09-28 15:59:43,420 [main] INFO  Base - Loaded Chrome Driver
+2016-09-28 15:59:58,849 [main] INFO  Base - Loaded URL
+2016-09-28 15:59:59,959 [main] INFO  Base - Driver Quit
+2016-09-28 16:14:43,007 [main] INFO  Base - Initializing Driver
+2016-09-28 16:14:45,414 [main] INFO  Base - Loaded Chrome Driver
+2016-09-28 16:14:59,565 [main] INFO  Base - Loaded URL
+2016-09-28 16:14:59,580 [main] INFO  NewHomePage - Initialized the Elements of -->NewHomePage Class<--
+2016-09-28 16:14:59,699 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 16:14:59,700 [main] INFO  NewHomePage - Moved to --->Book from Header Menu<---
+2016-09-28 16:14:59,709 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 16:14:59,823 [main] INFO  NewHomePage - Clicked on --->Search Flights<---
+2016-09-28 16:14:59,823 [main] INFO  NewHomePage - Initialized  --->SearchForFlightsPage WEbElements<---
+2016-09-28 16:14:59,824 [main] INFO  SearchForFlightsPage - Executed Constructor of <--SearchForFlightsPage-->
+2016-09-28 16:15:00,635 [main] INFO  Base - Driver Quit
+2016-09-28 17:41:48,627 [main] INFO  Base - Initializing Driver
+2016-09-28 17:41:51,530 [main] INFO  Base - Loaded Chrome Driver
+2016-09-28 17:42:07,874 [main] INFO  Base - Loaded URL
+2016-09-28 17:42:07,891 [main] INFO  NewHomePage - Initialized the Elements of -->NewHomePage Class<--
+2016-09-28 17:42:08,000 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 17:42:08,002 [main] INFO  NewHomePage - Moved to --->Book from Header Menu<---
+2016-09-28 17:42:08,014 [main] INFO  SeleniumCommands - Webdriver Wait
+2016-09-28 17:42:08,128 [main] INFO  NewHomePage - Clicked on --->Search Flights<---
+2016-09-28 17:42:08,129 [main] INFO  NewHomePage - Initialized  --->SearchForFlightsPage WEbElements<---
+2016-09-28 17:42:08,130 [main] INFO  SearchForFlightsPage - Executed Constructor of <--SearchForFlightsPage-->
+2016-09-28 17:42:08,906 [main] INFO  Base - Driver Quit

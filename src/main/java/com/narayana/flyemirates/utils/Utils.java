@@ -7,58 +7,47 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import Reference.Sample;
+
 public class Utils {
 
 	WebDriver driver;
-	
+
 	String leftCalMonth;
 	int leftCalyear;
-	
+
 	String rightCalMonth;
 	int rightCalyear;
-	
-	
-	//int inputDate, String InputMonth, int inputYear
-	public void calandar(int inputDate, String InputMonth, int inputYear){
-		
+
+	public void cal(String month, int date, int year) {
+
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		driver=new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.get("http://fly10.emirates.com/CAB/IBE/SearchAvailability.aspx");
-		
+
 		driver.findElement(By.cssSelector("#txtarrivaldate")).click();
-		
-		List<WebElement> monthYear=driver.findElements(By.xpath("//span[starts-with(@id,'month')]"));
-		String dateinLeftCal=monthYear.get(0).getText();
-		String dateinRightCal=monthYear.get(1).getText();
-		
-		String[] my1=dateinLeftCal.split(" ");
-		leftCalMonth=my1[0];
-		leftCalyear=Integer.parseInt(my1[1]);
-		
-		String[] my2=dateinRightCal.split(" ");
-		rightCalMonth=my2[0];
-		rightCalyear=Integer.parseInt(my2[1]);
-		
-		System.out.println(leftCalMonth+leftCalyear);
-		System.out.println(rightCalMonth+rightCalyear);
-		
-		if(InputMonth.equalsIgnoreCase(leftCalMonth)||InputMonth.equalsIgnoreCase(rightCalMonth)){
-			if(inputYear==leftCalyear||inputYear==rightCalyear){
-				List<WebElement> date1=driver.findElements(By.cssSelector("td[id^='day']"));
-				for (int i = 0; i < date1.size(); i++) {
-					String date=date1.get(i).getText();
-					//if(date==inputDate)
-				}
+
+		String leftCal = driver.findElement(By.cssSelector("span#monthRight")).getText();
+		String[] leftDM=leftCal.split(" ");
+		leftCalMonth=leftDM[0];
+		leftCalyear=Integer.parseInt(leftDM[1]);
+		if(month==leftCalMonth ||year==leftCalyear){
+			WebElement we=driver.findElement(By.cssSelector("#calendarRight"));
+			List<WebElement> datee=we.findElements(By.cssSelector("td[id^='day-']>a"));
+			for (int i = 0; i < datee.size(); i++) {
+				int datefromSite=Integer.parseInt(datee.get(i).getText());
+				if(date==datefromSite)
+					datee.get(i).click();
 			}
 		}
+		
 	}
-	
-	
-	
+
 	public static void main(String[] args) {
-		
-		
-		Utils utils=new Utils();
+
+		Sample sample = new Sample();
+		sample.cal("October", 30, 2016);
 	}
+
 
 }

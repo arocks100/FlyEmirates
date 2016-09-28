@@ -8,7 +8,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.internal.Utils;
 
-public class TestListenerAdapter implements IInvokedMethodListener {
+public class MethodListener implements IInvokedMethodListener {
 
 	public void afterInvocation(IInvokedMethod method, ITestResult result) {
 		
